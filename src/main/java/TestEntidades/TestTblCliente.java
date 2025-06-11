@@ -62,7 +62,7 @@ public class TestTblCliente {
 	*/
         //textear metodo buscar
         	//codgo a buscar 
-        cliente.setIdcliente(1);
+        cliente.setIdcliente(4);
         TblCliente buscliente=climp.BuscarCliente(cliente);
         System.out.println(" codigo "+buscliente.getIdcliente()
         + " nombre "+buscliente.getNomcliente()
